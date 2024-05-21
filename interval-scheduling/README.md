@@ -12,6 +12,6 @@ Finally, to visualize the results, I used matplotlib to create a bar chart. Each
 
 Through this project, I gained valuable insights into different interval scheduling strategies and their effectiveness in optimizing event schedules. Each algorithm has its strengths and can be applied based on specific requirements and constraints. The visualization component further helped in understanding the distribution and overlap of events, providing a clear picture of how each algorithm performs. Overall, this project enhanced my understanding of greedy algorithms and their application in real-world scheduling problems.
 
-
+============================================================================================
 
 In order to run this program, you may run the attached Python file through any means you prefer. It will print the number of events scheduled by each algorithm, and display a bar chart visual of ```first_finish```. In order to visualize the events scheduled by ```shortest_duration``` or ```first_start```, you may replace the "```ff_picks```" on line 132 with either "```sd_picks```" or "```fs_picks```".
