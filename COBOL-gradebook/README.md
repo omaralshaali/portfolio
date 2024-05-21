@@ -4,6 +4,8 @@ The final and most challenging part of the assignment was the transactions progr
 
 Throughout the assignment, I developed a comprehensive understanding of COBOL's capabilities and its use in data processing tasks. Each stage built upon the previous one, enhancing my skills incrementally and culminating in a functional and efficient transaction processing program. This assignment has been instrumental in deepening my knowledge of COBOL and its practical applications in business and data processing contexts.
 
+============================================================================================
+
 To run this program, open a Visual COBOL for Eclipse command prompt and navigate to where the program is located. Then, enter the following 2 lines to run the program:
 
 ```cobol transactions2.cbl jvmgen;```
