@@ -14,5 +14,5 @@ Throughout this project, I deepened my understanding of web development, API int
 
 ============================================================================================
 
-To run this project, you must first download the St. Paul crime incident report data from this link: https://information.stpaul.gov/datasets/stpaul::crime-incident-report/about. Then, navigate to the folder, use ```npm install``` to install all packages, and run the Crime API with ```node .\rest_server.mjs```. 
+To run this project, you must first download the St. Paul crime incident report data from this link: https://information.stpaul.gov/datasets/stpaul::crime-incident-report/about and place it into the folder titled "db". Then, navigate to the folder, use ```npm install``` to install all packages, and run the Crime API with ```node .\rest_server.mjs```. 
 
