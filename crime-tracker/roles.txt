@@ -1,0 +1,9 @@
+Omar:
+- Add New Incident Form
+- Crime Table Delete Button
+- About Page
+- Navigation Bar and Page Styling
+
+Ethan:
+
+Pedro:

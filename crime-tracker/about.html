@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About</title>
+    <!-- Foundation CSS -->
+    <link rel="stylesheet" href="/css/foundation.css" />
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <style>
+      .cell.medium-4 p {
+        margin: 0 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <header
+        class="grid-x grid-padding-x"
+        style="background-color: #333333; padding: 1rem 0"
+      >
+        <div class="cell">
+          <nav class="text-center" style="margin-top: 0.5rem">
+            <ul class="menu">
+              <li>
+                <a
+                  href="/?"
+                  style="
+                    color: #ffffff;
+                    text-decoration: none;
+                    padding: 0.5rem 1rem;
+                    margin: 0 0.5rem;
+                    border-radius: 5px;
+                    background-color: #555555;
+                  "
+                  >St. Paul Crime Data</a
+                >
+              </li>
+              <li>
+                <a
+                  href="about.html"
+                  style="
+                    color: #ffffff;
+                    text-decoration: none;
+                    padding: 0.5rem 1rem;
+                    margin: 0 0.5rem;
+                    border-radius: 5px;
+                    background-color: #555555;
+                  "
+                  >About the Project</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <br />
+      <div class="grid-x grid-padding-x">
+        <div id="input-box" class="cell auto text-center">
+          <h2>About the Project</h2>
+          <div class="grid-x">
+            <div class="cell medium-4">
+              <img
+                src="/ethan_photo.jpg"
+                alt="Ethan Lott"
+                style="width: 100%"
+              />
+              <h3 class="text-center">Ethan Lott</h3>
+              <p>
+                Ethan Lott is a senior Computer Science major at the University
+                of St. Thomas in St. Paul, MN. Upon graduating he intends to
+                pursue a career in Software Engineering on the east coast of the
+                United States.
+              </p>
+            </div>
+            <div class="cell medium-4">
+              <img
+                src="/omar_photo.png"
+                alt="Omar Alshaali"
+                style="width: 100%"
+              />
+              <h3 class="text-center">Omar Alshaali</h3>
+              <p>
+                Omar Alshaali is a senior studying Computer Science at the
+                University of St. Thomas in Saint Paul, where he is actively
+                engaged in honing his technical skills and exploring the dynamic
+                realm of programming.
+              </p>
+            </div>
+            <div class="cell medium-4">
+              <img
+                src="/pedro_photo.jpg"
+                alt="Pedro Cruz"
+                style="width: 100%"
+              />
+              <h3 class="text-center">Pedro Cruz</h3>
+              <p>
+                Pedro Cruz is a senior at the University of St. Thomas, studying
+                for a major in Computer Science and a minor in game design. Upon
+                graduation, he hopes to find his way into the game development
+                scene and create video games for all to enjoy.
+              </p>
+            </div>
+          </div>
+
+          <br /><br /><br />
+
+          <h2>Tools Used</h2>
+          <div class="grid-x">
+            <div class="cell medium-4">
+              <h4>Vue.js</h4>
+              <p>
+                Vue.js is an open-source model–view–viewmodel front end
+                JavaScript library for building user interfaces and single page
+                applications. We used Vue to communicate with our RESTful server
+                which handles the crime database, as well as building the
+                website in a single page.
+              </p>
+            </div>
+            <div class="cell medium-4">
+              <h4>Leaflet</h4>
+              <p>
+                Leaflet is an open-source JavaScript library used to build
+                interactive maps. We used it to display the neighborhood bounds,
+                and a map that could update to show addresses and coordinates.
+              </p>
+            </div>
+            <div class="cell medium-4">
+              <h4>Nominatim</h4>
+              <p>
+                Nominatim is a search engine for geographical data, specifically
+                designed for searching and retrieving information about
+                locations on the Earth's surface. We used it here to be able to
+                convert latitide and longitude coordinates into street addresses
+                to be displayed on the Leaflet map.
+              </p>
+            </div>
+          </div>
+          <br />
+          <h4>Our St. Paul Crime API</h4>
+          <p>
+            This API, built using Node.js and Express, serves as a backend for
+            our St. Paul Crime Data project. It connects to a SQLite3 database
+            containing Saint Paul's crime incident data, including crime codes,
+            neighborhoods, and incidents. The API provides various endpoints to
+            retrieve data, such as crime codes, neighborhood details, and
+            specific crime incidents. Additionally, it supports filtering data
+            based on parameters like start and end dates, crime codes, police
+            grid, and neighborhood numbers. The API also includes
+            functionalities for adding new crime incidents via a PUT request,
+            used in the Add New Incident form and removing existing incidents
+            via a DELETE request, used for the table's delete buttons.
+          </p>
+          <br />
+          <h4>Video Demo</h4>
+          <video controls width="100%">
+            <source src="/video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+    <br />
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script type="application/javascript">
+      $(document).foundation();
+    </script>
+  </body>
+</html>
