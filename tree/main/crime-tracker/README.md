@@ -12,5 +12,7 @@ Further improvements included adding a delete button for each crime entry, enabl
 
 Throughout this project, I deepened my understanding of web development, API integration, and interactive application design. The combination of Vue.js, Leaflet, Nominatim, and my custom API allowed me to create a robust, user-friendly tool for exploring crime data in St. Paul, demonstrating the practical applications of these technologies in a real-world context.
 
+============================================================================================
+
 To run this project, you must first download the St. Paul crime incident report data from this link: https://information.stpaul.gov/datasets/stpaul::crime-incident-report/about. Then, navigate to the folder, use ```npm install``` to install all packages, and run the Crime API with ```node .\rest_server.mjs```. 
 
